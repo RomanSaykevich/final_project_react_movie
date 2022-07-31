@@ -2,9 +2,9 @@ import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {useParams} from "react-router-dom";
 
-import css from './generesPage.module.css'
 import {MoviesList} from "../../components";
 import {getGenreList, paginationGenre} from "../../store";
+import css from './generesPage.module.css'
 
 const GenresPage = () => {
     const dispatch = useDispatch();

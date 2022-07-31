@@ -3,7 +3,6 @@ import {NavLink} from "react-router-dom";
 
 import css from './topMovie.module.css';
 
-
 const TopMovie = ({movie: {poster_path, title, id}}) => {
 
     return (

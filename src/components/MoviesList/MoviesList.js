@@ -1,8 +1,8 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 
-import css from './movieList.module.css';
 import {StarsRating} from "../StarsRating/StarsRating";
+import css from './movieList.module.css';
 
 const MoviesList = ({
                         movie: {

@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
-import css from "./tv.module.css";
-
 import {MoviesList} from "../MoviesList/MoviesList";
 import {serialList, serialPage} from "../../store";
+import css from "./tv.module.css";
 
 const TvPage = () => {
     const {tv: {results, page, total_pages}, statusTv} = useSelector(state => state['serialReducer']);
