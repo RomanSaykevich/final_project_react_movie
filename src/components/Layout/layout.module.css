@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapLayout {
+    position: relative;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    top: -6px;
+}
+
+main {
+    flex: 1;
+}
+
+.moviePageWrap {
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 2px solid #1a8b22;
+    border-top: none;
+
+}
+
+.navigate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1a8b22 ;
+    border-radius: 26px;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    color: #f3f3f3;
+    text-shadow: 1px 1px #000;
+    font-family: Tahoma, verdana, sans-serif;
+    border-bottom: 1px solid #1a8b22;
+    width: 330px;
+    padding-bottom: 7px;
+    left: 10px;
+}
+
+.navigate span{
+    padding-left: 15px;
+}

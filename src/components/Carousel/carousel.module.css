@@ -1,0 +1,29 @@
+.carouselWrap {
+    margin: 0 auto;
+    padding-top: 188px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.vert {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+    text-shadow: 1px 1px #000;
+
+
+}
+.vert h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1a8b22;
+    height: 30px;
+    border-radius: 20px;
+}
+.carousel {
+    width: 300px;
+}

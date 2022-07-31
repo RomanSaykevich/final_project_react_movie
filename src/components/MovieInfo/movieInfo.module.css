@@ -1,0 +1,139 @@
+.allContent {
+    margin-left: 90px;
+}
+
+.error {
+    color: #A7ACAF;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.titleBlock {
+    text-align: center;
+    width: 641px;
+    border-radius: 20px;
+    background: #1a8b22;
+    border: 2px solid #1a8b22;
+    margin-bottom: 13px;
+    color: #A7ACAF;
+    margin-top: -15px;
+    padding: 10px;
+    margin-left: 400px;
+}
+
+.titleBlock h1 {
+    font-size: 17px;
+    text-shadow: 1px 1px #000;
+    color: #c9c9c9;
+    list-style-type: none;
+    font-family: Tahoma, verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.infoBlock{
+    padding: 12px;
+    border-bottom: 2px solid #1a8b22;
+    border-radius: 0 0 0 10px ;
+    width: 500px;
+}
+
+.imgInfoBlock {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 450px;
+color: white;
+
+    font-family: Tahoma, verdana, sans-serif;
+}
+.over{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Tahoma, verdana, sans-serif;
+}
+.overview {
+    width: 1000px;
+    font-family: Tahoma, verdana, sans-serif;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid #1a8b22;
+    border-left: 2px solid #1a8b22;
+    border-radius: 0 0 10px 10px;
+}
+.overview p{
+    margin-left: 20px;
+}
+.blockOver h2{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.lastInfo {
+    margin-left: 265px;
+    margin-bottom: 30px;
+}
+
+.lastInfo ul {
+    list-style-type: none;
+    font-family: Tahoma, verdana, sans-serif;
+    color: #a8a8a8;
+    line-height: 25px;
+}
+
+.lastInfo li span {
+    padding: 5px;
+    font-size: 13px;
+}
+
+.lastInfo ul a {
+    font-size: 14px;
+    color: #e0dfdc;
+    text-decoration: underline;
+}
+
+.lastInfo ul a:hover {
+    color: red;
+}
+
+.video {
+    margin-left: 350px;
+    width: 1024px;
+    height: 720px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.commentsTitle {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 7px;
+}
+
+.commentsWrap {
+    margin-left: 270px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.comments img {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.commentsTitle span {
+    font-size: 20px;
+    font-family: Tahoma, verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+.content {
+    height: 73px;
+    width: 580px;
+    overflow: hidden;
+    margin-top: 15px;
+    font-family: Tahoma, verdana, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 1px solid #1a8b22;
+}

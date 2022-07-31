@@ -1,0 +1,54 @@
+.genreWrap {
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    height: 382px;
+    position: absolute;
+    padding: 16px;
+    top: 165px;
+    border-top: 1px solid #1a8b22;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #f8f7f7;
+    height: 35px;
+
+    background: #1a8b22;
+
+    cursor: pointer;
+    border-radius: 26px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.navLinkBlock {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.links a {
+    color: #e0dfdc;
+    text-decoration: underline;
+    list-style-type: none;
+    font-family: Tahoma, verdana, sans-serif;
+    font-size: 17px;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.links a[class='active'] {
+    color: red;
+}
