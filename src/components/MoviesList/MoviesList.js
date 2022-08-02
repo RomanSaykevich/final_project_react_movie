@@ -25,6 +25,7 @@ const MoviesList = ({
 
     return (
         <div className={css.movieItem}>
+
             <NavLink to={`/movie/${id}`} state={vote_average}>
 
                     <div className={css.titleBlock}>

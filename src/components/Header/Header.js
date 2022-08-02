@@ -37,7 +37,7 @@ const Header = () => {
             <div className={css.headerInput}>
                 <form onSubmit={submit}>
                     <input type={'text'} name={'searchMovie'} placeholder={'Пошук'}/>
-                    <button>Пошук</button>
+                    <button className={css.poshuk}>Пошук</button>
                 </form>
                 <Carousel/>
             </div>

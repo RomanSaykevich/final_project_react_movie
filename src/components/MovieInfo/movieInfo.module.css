@@ -11,9 +11,8 @@
 .titleBlock {
     text-align: center;
     width: 641px;
-    border-radius: 20px;
-    background: #1a8b22;
-    border: 2px solid #1a8b22;
+    border-radius: 20px 0;
+    border: 2px solid #e52017;
     margin-bottom: 13px;
     color: #A7ACAF;
     margin-top: -15px;
@@ -22,7 +21,7 @@
 }
 
 .titleBlock h1 {
-    font-size: 17px;
+    font-size: 30px;
     text-shadow: 1px 1px #000;
     color: #c9c9c9;
     list-style-type: none;
@@ -30,10 +29,11 @@
     margin: 0;
     padding: 0;
 }
-.infoBlock{
+
+.infoBlock {
     padding: 12px;
-    border-bottom: 2px solid #1a8b22;
-    border-radius: 0 0 0 10px ;
+    border-bottom: 2px solid #e52017;
+    border-radius: 0 0 0 10px;
     width: 500px;
 }
 
@@ -42,32 +42,37 @@
     margin-top: 30px;
     gap: 20px;
     margin-left: 450px;
-color: white;
+    color: white;
 
     font-family: Tahoma, verdana, sans-serif;
 }
-.over{
+
+.over {
     color: #ffffff;
     font-size: 22px;
     font-family: Tahoma, verdana, sans-serif;
 }
+
 .overview {
     width: 1000px;
     font-family: Tahoma, verdana, sans-serif;
     color: #ffffff;
     padding: 15px;
     margin-top: 10px;
-    border-bottom: 2px solid #1a8b22;
-    border-left: 2px solid #1a8b22;
+    border-bottom: 2px solid #e52017;
+    border-left: 2px solid #e52017;
     border-radius: 0 0 10px 10px;
 }
-.overview p{
+
+.overview p {
     margin-left: 20px;
 }
-.blockOver h2{
+
+.blockOver h2 {
     margin-left: 150px;
     margin-top: 30px;
 }
+
 .lastInfo {
     margin-left: 265px;
     margin-bottom: 30px;
@@ -101,6 +106,7 @@ color: white;
     height: 720px;
     margin-top: 65px;
     margin-bottom: 65px;
+    border: 10px solid #e52017;
 }
 
 .commentsTitle {
@@ -135,5 +141,5 @@ color: white;
     font-family: Tahoma, verdana, sans-serif;
     color: #ffffff;
     font-size: 14px;
-    border-bottom: 1px solid #1a8b22;
+    border-bottom: 1px solid #e52017;
 }

@@ -2,17 +2,18 @@
     width: 329px;
     top: 635px;
     position: absolute;
-    border-top: 1px solid #1a8b22;
+    border-radius: 20px 0;
     list-style-type: none;
     font-family: Tahoma, verdana, sans-serif;
     color: #a8a8a8;
-    border-bottom: 1px solid #1a8b22;
+    border: 2px solid #e52017;
     overflow: hidden;
 }
 
 .movieItem {
     padding: 10px;
-    border-bottom: 1px solid #1a8b22;
+    border-bottom: 1px solid #e52017;
+    border-radius: 20px;
 }
 .movieItem img{
     width: 150px;
@@ -27,12 +28,11 @@
     margin: 7px;
     width: 200px;
     height: 30px;
-    background: #1a8b22;
-    border-radius: 20px;
+    background: #e52017;
+    border-radius: 20px 0;
 }
 .titleBlock {
-    border-top: 1px solid #1a8b22;
-
+    border-top: 1px solid #e52017;
     display: flex;
     align-items: center;
     padding: 20px;

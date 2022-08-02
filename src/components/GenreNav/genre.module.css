@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 329px;
-    height: 382px;
+    height: 472px;
     position: absolute;
     padding: 16px;
     top: 165px;
-    border-top: 1px solid #1a8b22;
+    border: 2px solid #e52017;
+    border-radius: 20px;
 }
 
 .titleBlock {
@@ -16,11 +17,9 @@
     text-decoration: none;
     color: #f8f7f7;
     height: 35px;
-
-    background: #1a8b22;
-
+    background: #e52017;
     cursor: pointer;
-    border-radius: 26px;
+    border-radius: 26px 0;
     width: 100px;
     margin-bottom: 10px;
 }

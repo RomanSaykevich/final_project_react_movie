@@ -1,10 +1,19 @@
 .headerWrap{
     width: 100%;
-    height: 43px;
+    height: 350px;
     display: flex;
     justify-content: space-between;
     z-index: 500;
     padding: 20px;
+    border: 2px solid #e52017;
+    border-radius: 20px;
+    background: url("https://www.kino-teatr.ru/news/27177/240201.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .logo img{
@@ -14,19 +23,22 @@
     width: 150px;
     height: 50px;
 }
-
+.poshuk{
+    border-radius: 20px 0;
+}
 .headerWrap input{
     width: 300px;
     height: 35px;
-    border: 1px solid #4da763;
-    -webkit-box-shadow: 0 2px 4px #4da763 inset;
+    border: 1px solid #e52017;
+    border-radius: 0 20px;
+    -webkit-box-shadow: 0 2px 4px #e52017 inset;
     box-shadow: 0 2px 4px #414141 inset;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 10px;
-    color: #f2f6f3;
-    background-color: #4da763;
+    color: #ffffff;
+    background-color: #e52017;
 
 }
 .headerInput{
@@ -38,8 +50,8 @@
     color: #c9c9c9;
     text-shadow: 1px 1px #000;
     height: 35px;
-    background: #1a8b22 ;
-    border: 1px solid #1a8b22;
+    background: #e52017 ;
+    border: 1px solid #e52017;
     cursor: pointer;
     padding: 0 7px;
 
@@ -57,10 +69,10 @@
     color: #ffffff;
     height: 35px;
     text-shadow: 1px 1px #000;
-    background: #1a8b22;
-    border: 1px solid #1a8b22;
+    background: #e52017;
+    border: 1px solid #e52017;
     cursor: pointer;
-    border-radius: 26px;
+    border-radius: 20px 0;
     width: 100px;
     margin-left: 16px;
     margin-bottom: 10px;

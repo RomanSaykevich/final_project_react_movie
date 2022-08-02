@@ -24,17 +24,16 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    border: 2px solid #1a8b22;
     border-top: none;
-
+    border-radius: 20px;
 }
 
 .navigate{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1a8b22 ;
-    border-radius: 26px;
+    background: #e52017 ;
+    border-radius: 26px 0;
     position: absolute;
     font-size: 22px;
     font-weight: 700;
@@ -42,8 +41,7 @@ main {
     color: #f3f3f3;
     text-shadow: 1px 1px #000;
     font-family: Tahoma, verdana, sans-serif;
-    border-bottom: 1px solid #1a8b22;
-    width: 330px;
+    width: 315px;
     padding-bottom: 7px;
     left: 10px;
 }
