@@ -2,12 +2,14 @@ import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {NavLink, useLocation, useParams} from "react-router-dom";
 
-import css from './movieInfo.module.css';
 import {getMovieActor, getMovieComments, getMovieInfo, getMovieVideo} from "../../store";
 import {StarsRating} from "../StarsRating/StarsRating";
+import css from './movieInfo.module.css';
 
 const MovieInfo = () => {
+
     const dispatch = useDispatch();
+
     const {id} = useParams();
 
     const {movieInfo, statusInfo} = useSelector(state => state['movieReducer']);
@@ -21,7 +23,9 @@ const MovieInfo = () => {
     const actors = actor.cast && actor.cast.filter(item => item.popularity > 10);
 
     const posterPath = 'https://image.tmdb.org/t/p/w500';
+
     const defUrl = 'https://secure.gravatar.com/avatar/992eef352126a53d7e141bf9e8707576.jpg';
+
     const base = 'https://secure.gravatar.com/avatar/';
 
     useEffect(() => {
@@ -53,6 +57,7 @@ const MovieInfo = () => {
                         <div>
                             <img src={`https://image.tmdb.org/t/p/w500${movieInfo.poster_path}`} alt={movieInfo.title}/>
                         </div>
+
                         <div>
                             <ul>
                                 <div className={css.infoBlock}>
@@ -60,26 +65,32 @@ const MovieInfo = () => {
                                         ratingDB={vote_average / 2}/>
                                         <h4>{vote_average}</h4></div>}
                                 </div>
+
                                 <div className={css.infoBlock}>
                                     <h3>Рік: <span>{movieInfo.release_date.toString().slice(0, 4)}</span></h3>
                                 </div>
+
                                 <div className={css.infoBlock}>
                                     <h3>Країна: <span>{movieInfo && movieInfo.production_countries.map(item => <span
                                         key={item.name}>{item.name}</span>)}</span>
                                     </h3>
                                 </div>
+
                                 <div className={css.infoBlock}>
                                     <h3>Жанр: <span>{movieInfo && movieInfo.genres.map((item, i) => <span
                                         key={i}><NavLink
                                         to={`/genreList/${item.id}`}>{item.name}</NavLink>, </span>)}</span>
                                     </h3>
                                 </div>
+
                                 <div className={css.infoBlock}>
                                     <h3>Тривалість: <span>{movieInfo.runtime} мин.</span></h3>
                                 </div>
+
                                 <div className={css.infoBlock}>
                                     <h3>Світова прем'єра: <span>{movieInfo.release_date}</span></h3>
                                 </div>
+
                                 <div className={css.infoBlock}>
                                     <h3>Актори: {actors && actors.map(actor => <span
                                         key={actor.id}>{actor.name},</span>)}</h3>
@@ -128,7 +139,7 @@ const MovieInfo = () => {
                             </div>)}
                     </div>
                 </div>
-            }
+            };
         </div>
     );
 };

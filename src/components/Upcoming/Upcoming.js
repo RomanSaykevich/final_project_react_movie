@@ -2,11 +2,13 @@ import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {NavLink} from "react-router-dom";
 
-import css from './upcoming.module.css';
 import {getUpcoming} from "../../store";
+import css from './upcoming.module.css';
 
 const Upcoming = () => {
+
     const dispatch = useDispatch();
+
     const {upcoming: {results}, statusUpcoming} = useSelector(state => state['upcomingReducer']);
 
     useEffect(() => {
@@ -34,6 +36,7 @@ const Upcoming = () => {
 
                     <div className={css.movieInfo}>
                         <NavLink to={`/movie/${movie.id}`}>{movie.title}</NavLink>
+
                         <div className={css.overviewBlock}>
                             <div className={css.overview}>
                                 <p>{truncate(movie.overview, 90)}</p>

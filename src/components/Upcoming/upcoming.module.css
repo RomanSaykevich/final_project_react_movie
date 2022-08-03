@@ -39,7 +39,6 @@
     color: white;
     text-shadow: 1px 1px #000;
 }
-
 .titleBlock p {
     font-size: 15px;
     font-weight: 700;
@@ -56,19 +55,16 @@
     font-size: 14px;
     color: #FFF;
 }
-
 .overview {
     max-height: 64px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .overviewBlock {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .movieInfo a {
     font-size: 13px;
     text-decoration: none;
@@ -77,11 +73,9 @@
     color: #f3f3f3;
     text-shadow: 1px 1px #000;
 }
-
 .movieInfo a:hover {
     color: red;
 }
-
 .year {
     display: flex;
     flex-direction: column;

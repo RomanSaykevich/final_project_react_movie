@@ -1,12 +1,14 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
-import {MoviesList} from "../MoviesList/MoviesList";
 import {serialList, serialPage} from "../../store";
-import css from "./tv.module.css";
+import {MoviesList} from "../../components";
+import css from "./serial.module.css";
 
-const TvPage = () => {
+const SerialPage = () => {
+
     const {tv: {results, page, total_pages}, statusTv} = useSelector(state => state['serialReducer']);
+
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -14,7 +16,7 @@ const TvPage = () => {
     }, []);
 
     return (
-        <div className={css.tvWrap}>
+        <div className={css.serialWrap}>
             <div>
                 {statusTv && <h1>Loading...</h1>}
                 {results && results.map(movie => <MoviesList key={movie.id} movie={movie}/>)}
@@ -30,4 +32,4 @@ const TvPage = () => {
     );
 };
 
-export {TvPage};
+export {SerialPage};

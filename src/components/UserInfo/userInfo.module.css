@@ -1,0 +1,15 @@
+.user {
+    color: #ffffff;
+    display: flex;
+    padding-top: 3px;
+    align-items: center;
+    margin-top: -10px;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 400px;
+}
+
+.user img {
+    height: 35px;
+    padding-right: 5px;
+}

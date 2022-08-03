@@ -3,9 +3,9 @@ export * from './MovieInfo/MovieInfo';
 export * from './MoviesList/MoviesList';
 export * from './StarsRating/StarsRating';
 export * from './GenreNav/GenreNav';
-export * from './Footer/Footer';
 export * from './TopMovie/TopMovie';
 export * from './Upcoming/Upcoming';
-export * from './TvPage/TvPage';
-export * from './StarsRating/StarsRating'
-export * from './Layout/Layout'
+export * from '../Containers/serialPage/serialPage';
+export * from './StarsRating/StarsRating';
+export * from './UserInfo/UserInfo';
+export * from './Layout/Layout';

@@ -2,13 +2,13 @@ import React from 'react';
 import {NavLink, useNavigate} from "react-router-dom";
 import {useDispatch} from "react-redux";
 
-import css from './header.module.css';
-
-
 import {searchMovie} from "../../store";
 import Carousel from "../Carousel/Carousel";
+import css from './header.module.css';
+import {UserInfo} from "../UserInfo/UserInfo";
 
 const Header = () => {
+
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
@@ -33,7 +33,7 @@ const Header = () => {
                 <NavLink to={'/latest'}><span>НОВИНКИ</span></NavLink>
                 <NavLink to={'/tv'}><span>СЕРІАЛИ</span></NavLink>
             </div>
-
+<UserInfo/>
             <div className={css.headerInput}>
                 <form onSubmit={submit}>
                     <input type={'text'} name={'searchMovie'} placeholder={'Пошук'}/>

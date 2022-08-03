@@ -6,10 +6,9 @@
     -o-transition: all .3s ease;
     height: 174px;
     cursor: pointer;
-    border: 3px solid #888;
+    border: 3px solid #e52017;
 }
-
 .movieItem img:hover{
     height: 180px;
-    box-shadow: 10px 5px 5px #3f3f3f;
+    box-shadow: 10px 5px 5px #e52017;
 }

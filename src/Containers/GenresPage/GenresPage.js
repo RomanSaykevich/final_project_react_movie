@@ -7,7 +7,9 @@ import {getGenreList, paginationGenre} from "../../store";
 import css from './generesPage.module.css'
 
 const GenresPage = () => {
+
     const dispatch = useDispatch();
+
     const {genreId} = useParams();
 
     const {

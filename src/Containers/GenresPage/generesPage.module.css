@@ -8,7 +8,6 @@
     font-size: 25px;
     padding-bottom: 25px;
 }
-
 .buttonBlock button {
     text-decoration: none;
     border: 1px solid #e52017;
@@ -18,4 +17,5 @@
     font-size: 12px;
     width: 60px;
     cursor: pointer;
+    border-radius: 20px 0;
 }

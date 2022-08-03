@@ -1,21 +1,20 @@
-.headerWrap{
+.headerWrap {
     width: 100%;
-    height: 350px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     z-index: 500;
     padding: 20px;
     border: 2px solid #e52017;
     border-radius: 20px;
-    background: url("https://www.kino-teatr.ru/news/27177/240201.jpg");
+    /*background: url("https://d1v9pyzt136u2g.cloudfront.net/blog/wp-content/uploads/2021/11/06112339/gsmarena_001.jpeg");*/
     background-repeat: no-repeat;
     background-position: center center;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
 
+}
 .logo img{
     display: flex;
     cursor: pointer;
@@ -39,12 +38,7 @@
     padding-left: 10px;
     color: #ffffff;
     background-color: #e52017;
-
 }
-.headerInput{
-
-}
-
 .headerWrap button{
     text-decoration: none;
     color: #c9c9c9;
@@ -54,13 +48,12 @@
     border: 1px solid #e52017;
     cursor: pointer;
     padding: 0 7px;
-
 }
 .navPanel {
     display: flex;
     justify-content: right;
+    margin-left: 200px;
 }
-
 .navPanel a {
     display: flex;
     justify-content: center;
@@ -77,16 +70,11 @@
     margin-left: 16px;
     margin-bottom: 10px;
 }
-
-
-
 .navPanel a span {
     list-style-type: none;
     font-family: Tahoma, verdana, sans-serif;
     color: #c9c9c9;
-
 }
-
 .navPanel a span:hover {
     color: #c9c9c9;
 }

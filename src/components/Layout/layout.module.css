@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .wrapLayout {
     position: relative;
     margin: 0 auto;
@@ -12,11 +11,9 @@
     flex-direction: column;
     top: -6px;
 }
-
 main {
     flex: 1;
 }
-
 .moviePageWrap {
     position: relative;
     display: flex;
@@ -27,7 +24,6 @@ main {
     border-top: none;
     border-radius: 20px;
 }
-
 .navigate{
     display: flex;
     justify-content: center;
@@ -45,7 +41,6 @@ main {
     padding-bottom: 7px;
     left: 10px;
 }
-
 .navigate span{
     padding-left: 15px;
 }

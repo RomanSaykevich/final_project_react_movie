@@ -20,7 +20,6 @@ const StarsRating = ({ratingDB}) => {
                     >
                         <span>&#9733;</span>
                     </button>
-
                 );
             })}
         </div>

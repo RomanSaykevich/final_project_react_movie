@@ -21,6 +21,7 @@ const MoviesPage = () => {
 
     return (
         <div>
+
             {status === 'pending' && <h1>Loading...</h1>}
             {error && <h1>{error}</h1>}
             {results && results.map(movie => <MoviesList key={movie.id} movie={movie}/>)}

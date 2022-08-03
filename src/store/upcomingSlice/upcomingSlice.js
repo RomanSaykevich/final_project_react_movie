@@ -27,6 +27,7 @@ const upcomingSlice = createSlice({
         },
     }
 });
+
 const upcomingReducer = upcomingSlice.reducer;
 
 export const {movieUpcomingDispatch} = upcomingSlice.actions;
