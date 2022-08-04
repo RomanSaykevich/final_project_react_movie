@@ -17,7 +17,6 @@ function App() {
                     <Route path={'/latest'} element={<LatestPage/>}/>;
                     <Route path={'/genreList/:genreId'} element={<GenresPage/>}/>;
                     <Route path={'/tv'} element={<SerialPage/>}/>;
-                    <Route path={'/tv/:id'} element={<MovieInfo/>} />
                     <Route path={'/movie/:id'} element={<MovieInfo/>}/>;
                     <Route path={'/search'} element={<SearchPage/>}/>;
                 </Route>

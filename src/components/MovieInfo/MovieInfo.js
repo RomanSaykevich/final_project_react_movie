@@ -60,6 +60,7 @@ const MovieInfo = () => {
 
                         <div>
                             <ul>
+
                                 <div className={css.infoBlock}>
                                     {vote_average && <div><h3>Рейтинг:</h3> <StarsRating
                                         ratingDB={vote_average / 2}/>
