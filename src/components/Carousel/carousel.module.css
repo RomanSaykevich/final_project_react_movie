@@ -1,6 +1,6 @@
 .carouselWrap {
-    margin: 0 auto;
-    padding-top: 400px;
+
+    margin-top: 400px;
     display: flex;
     justify-content: center;
 
@@ -22,6 +22,8 @@
     gap: 18px;
     color: white;
     text-shadow: 1px 1px #000;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.67);
 }
 .vert h3{
     display: flex;
@@ -30,6 +32,7 @@
     background: #e52017;
     height: 30px;
     border-radius: 20px 0;
+    margin-bottom: 20px;
 }
 .carousel {
     width: 300px;

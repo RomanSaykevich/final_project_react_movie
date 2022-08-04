@@ -19,8 +19,9 @@ const Carousel = () => {
             {statusPopular === 'pending' && <h1>Loading...</h1>}
             <div className={css.carouselWrap}>
 
-                <div className={css.vert}><h3> ЗАРАЗ ПОПУЛЯРНІ: </h3>
+                <div className={css.vert}>
                     <div className={css.vertBlock}>
+                        <h3> ЗАРАЗ ПОПУЛЯРНІ: </h3>
                         {popular.results && popular.results.map(movieTop => <TopMovie key={movieTop.id} movie={movieTop}/>)}
                     </div>
 

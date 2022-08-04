@@ -7,6 +7,7 @@
     height: 174px;
     cursor: pointer;
     border: 3px solid #e52017;
+
 }
 .movieItem img:hover{
     height: 180px;

@@ -47,6 +47,7 @@ const MoviesList = ({
                     <p>Дата виходу: {release_date ? release_date : first_air_date} </p>
                 </div>
             </div>
+
         </div>
     );
 };

@@ -8,8 +8,10 @@
     color: #a8a8a8;
     border: 2px solid #e52017;
     overflow: hidden;
+    background: rgba(0, 0, 0, 0.67);
+    margin-top: 40px;
+    padding: 15px;
 }
-
 .movieItem {
     padding: 10px;
     border-bottom: 1px solid #e52017;

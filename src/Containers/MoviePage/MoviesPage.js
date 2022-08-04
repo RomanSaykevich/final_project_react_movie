@@ -7,6 +7,7 @@ import css from './moviePage.module.css';
 
 
 const MoviesPage = () => {
+
     const dispatch = useDispatch();
 
     const {

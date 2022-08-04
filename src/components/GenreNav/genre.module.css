@@ -4,10 +4,11 @@
     width: 329px;
     height: 472px;
     position: absolute;
-    padding: 16px;
+    padding: 15px;
     top: 165px;
     border: 2px solid #e52017;
     border-radius: 20px;
+    background: rgba(0, 0, 0, 0.67);
 }
 
 .titleBlock {
