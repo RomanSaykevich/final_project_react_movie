@@ -30,13 +30,13 @@ const GenresPage = () => {
 
             <div className={css.buttonBlock}>
                 <button
-                    onClick={() => page > 1 && dispatch(paginationGenre({genreId: genreId, page: page - 1}))}>previous
+                    onClick={() => page > 1 && dispatch(paginationGenre({genreId: genreId, page: page - 1}))}>НАЗАД
                 </button>
                 {page}
                 <button onClick={() => page < total_pages && dispatch(paginationGenre({
                     genreId: genreId,
                     page: page + 1
-                }))}>next
+                }))}>ВПЕРЕД
                 </button>
             </div>
 
