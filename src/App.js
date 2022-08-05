@@ -4,7 +4,7 @@ import {GenresPage, LatestPage, MoviesPage, SearchPage} from "./Containers";
 import {Layout, MovieInfo, SerialPage} from "./components";
 import './App.css';
 
-function App() {
+const App = () => {
     return (
 
         <div className="App">
