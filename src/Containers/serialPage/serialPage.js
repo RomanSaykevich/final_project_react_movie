@@ -23,10 +23,10 @@ const SerialPage = () => {
             </div>
 
             <div className={css.buttonBlock}>
-                <button onClick={() => page > 1 && dispatch(serialPage(page - 1))}>previous
+                <button onClick={() => page > 1 && dispatch(serialPage(page - 1))}>НАЗАД
                 </button>
                 {page}
-                <button onClick={() => page < total_pages && dispatch(serialPage(page + 1))}>next</button>
+                <button onClick={() => page < total_pages && dispatch(serialPage(page + 1))}>ВПЕРЕД</button>
             </div>
         </div>
     );
